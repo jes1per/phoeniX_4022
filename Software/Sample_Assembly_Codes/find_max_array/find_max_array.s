@@ -28,6 +28,6 @@ load:
     lw      t1,     -48(s1)
     addi    s1,     s1,     4
     bgt     t1,     t0,     swap    # if t1 > t0 then swap
-    blt     s1,     s2,     load    # if s0 <= s1 then load
+    blt     s1,     s2,     load    # if s1 <= s2 then load
     sw      t0,     -28(s0)
     
