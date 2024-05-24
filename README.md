@@ -21,7 +21,7 @@ Quick sort is a divide-and-conquer algorithm that sorts an array by partitioning
 1. Initialize the stack for future use.
 2. Store the input array into memory.
 3. Set up call arguments for the `quicksort` routine and call it.
-4. After returning from the `quicksort` routine, store the results from memory into registers (s2 to s6) to view them in the GTKWave application.
+4. After returning from the `quicksort` routine, store the results from memory into registers (`s2` to `s6`) to view them in the GTKWave application.
 5. Restore registers and end.
 
 #### Quicksort Routine 🔄
